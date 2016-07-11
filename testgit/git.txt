@@ -1,0 +1,33 @@
+git push origin :branch-name  删除服务器分支
+
+//提交代码
+
+git checkout heqi
+
+git add
+
+git commit -m ''
+
+git checkout develop
+
+git pull origin develop:develop
+
+git merge heqi 
+
+git push origin develop:develop
+
+
+//更新代码
+
+git checkout develop
+
+git pull origin develop:develop
+
+git checkout heqi
+
+git merge develop
+
+
+
+
+git clone http://hpm.hand-china.com/diffusion/PINLINWS/PINLIWS.git

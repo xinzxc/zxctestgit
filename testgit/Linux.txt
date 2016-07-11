@@ -1,0 +1,135 @@
+删除文件夹实例：
+rm -rf /root/JBoss-Final/standalone/tmp/vfs
+rm -rf /root/JBoss-Final/standalone/tmp/work
+将会删除/root/JBoss-Final/standalone/tmp/work目录以及其下所有文件、文件夹
+
+启动和删除执行.sh文件
+
+ ./JBoss/bin/standalone.sh -s  后台运行加&  nohup ./JBoss-Final/bin/standalone.sh &
+chmod +x  standalone.sh
+
+free -m   查看实时内存
+
+ps -ef	  查看所有进程
+
+mkdir   新建文件夹
+
+kill 进程号   
+
+cd 
+
+ls  查看目录
+
+http://dtscrc1.pec.com.cn:8082/PEC_Service/services/MobileService?wsdl
+http://dtscrc1.pec.com.cn:8082/PEC_SyncService/services/AxisService?wsdl
+
+
+
+nohup ./jboss-as-web-7.0.2.Final-pinlive/bin/standalone.sh &
+
+
+
+解压：unzip -o -d /home/sunny myfile.zip
+把myfile.zip文件解压到 /home/sunny/
+-o:不提示的情况下覆盖文件；
+-d:-d /home/sunny 指明将文件解压缩到/home/sunny目录下；
+压缩：zip FileName.zip DirName
+
+查看进程：ps -ef   杀掉进程：kill pid
+ps -ely
+
+1. 查看时间和日期
+命令 ： "date"
+
+2.设置时间和日期
+例如：将系统日期设定成2009年11月3日的命令
+
+命令 ： "date -s 11/03/2009"
+
+将系统时间设定成下午5点55分55秒的命令
+
+命令 ： "date -s 17:55:55"
+
+3. 将当前时间和日期写入BIOS，避免重启后失效
+命令 ： "hwclock -w"
+
+查看日志
+tail -n 50 -f
+
+
+MAILTO=""
+37 20 * * * /root/IMP/XI_ALL.sh >> /root/IMP/start.log
+
+
+
+
+启动服务器：到 /u01/app/jboss/目录下
+UAT: nohup ./jboss-as-web-7.0.2.Final/bin/standalone.sh &
+
+
+查看启动服务器日志
+
+tail -f server.log
+
+
+
+//查看glassfish服务器日志
+vi server.log
+
+
+
+
+kill -9 进程号
+
+先 ps -ef | more 看进程情况 
+
+如果知道进程名称 也可以用 
+
+ps -ef| grep 进程名称
+
+找到第二列 就是进程号 ，输入 kill －9 进程号 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
